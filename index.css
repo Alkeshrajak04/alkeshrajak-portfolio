@@ -1,0 +1,128 @@
+* {
+      margin: 0;
+      font-family: Arial;
+      border : border-box;
+}
+
+/* body baground css */
+
+body{
+      background-image: url("https://www.zdnet.com/a/img/resize/605df164b50d7127344cce4c41e5e2a36ac951b4/2023/04/05/e0478a88-b3ed-4516-8459-e0b919b4b2bc/artificial-intelligence.jpg?auto=webp&width=1280");
+      background-size: cover;
+      transform: scale(1);
+
+      
+}
+/* this is a navbar css */
+.navbar{
+  height: 50px;
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  
+  
+
+}
+
+/* icon css (home ,hackerrank..etc) */
+
+img{
+      height: 0.5cm;
+      width: 0.5cm;
+}
+.icon{
+      border: 2px solid transparent;
+      text-decoration: none;
+}
+.icon:hover{
+      border:2px solid blue
+}
+a{
+      color: white;
+      text-decoration: none;
+}
+.search{
+      border: 3px solid black;
+      height: 0.7cm;
+      width: 5.2cm;
+      display: flex;
+      color: black;
+      background-color: yellow;
+      border-radius: 6px;
+      align-items: center;
+      justify-content: center;
+}
+.search:hover{
+      border: 4px solid blue;
+}
+.three{
+      width: 4cm ;
+
+}
+/* line2  */
+.line2{
+      background-color:white;
+      display: flex;
+      justify-content: end;
+      
+}
+.alkeshimg{
+      height: 4cm;
+      width: 4cm;
+      border: 10px solid black;
+      border-radius: 20%;
+      display: flex;
+     margin-top: 120px;
+     margin-left: 600px;
+}
+.NAME{
+      background-color:none;
+      color: white;
+      display: flexbox;
+      margin-left: 580px;
+      margin-right: 700PX;
+      padding-left: 30PX;
+}
+
+
+
+.NAME{
+      background-color: black;
+      border: 2px solid blue;
+      border-radius: 10%;
+      
+}
+/* PROJECT PART */
+.project{
+      background-color: white;
+      color:black ;
+      display: flex;
+      justify-content: center;
+      
+}
+
+.CERT{
+      display: flexbox;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: white;
+      color: black;
+      text-decoration: none;
+}
+.skills{
+      background-color: white;
+      color: blue;
+      display: flex;
+      justify-content: center;
+}
+.footer{
+      background-color: black;
+      color: yellow;
+      height: 0.5cm;
+      border: 1px solid black;
+      display: flex;
+      justify-content: end;
+}
