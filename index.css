@@ -1,128 +1,103 @@
-* {
-      margin: 0;
-      font-family: Arial;
-      border : border-box;
-}
 
-/* body baground css */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 
-body{
-      background-image: url("https://www.zdnet.com/a/img/resize/605df164b50d7127344cce4c41e5e2a36ac951b4/2023/04/05/e0478a88-b3ed-4516-8459-e0b919b4b2bc/artificial-intelligence.jpg?auto=webp&width=1280");
-      background-size: cover;
-      transform: scale(1);
-
-      
-}
-/* this is a navbar css */
-.navbar{
-  height: 50px;
-  background-color: black;
-  color:white;
+.content-nev{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  font-size: 1cm;
+  padding: 20px;
+}
 
+
+.animation-block {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.verification{
+  text-decoration: none;
+  color: 	 #00ff55;
+}
+
+.cer{
+  margin-bottom: 15px;
+  padding: 20px;
   
+}
+
+
+.cer-in{
+  margin-bottom: 10px;
+  padding: 2px;
+  box-shadow: 5px 7px 10px rgb(218, 216, 216);
+}
+
+
+
+/* Education section content */
+
+
+.anim-E  {
+ 
+  position: relative;
+  animation: mymove 2s  ;
+  animation-timing-function: linear;
+}
+
+@keyframes mymove {
+  from {top: -200px;}
+  to {top: 0px;}
+
+
+}
+
+
+
+/* bottom */
+
+.bottom-hed{
+  text-align: center;
+  padding-top: 10px;
+  background-color: #f2f2f2;
+  color: black;
   
-
+}
+.bottom{
+  min-height: 5cm;
+  background-color: #f2f2f2;
+  color: black;
 }
 
-/* icon css (home ,hackerrank..etc) */
+.bottom-con li{
+  list-style-type:none;
+  
+}
 
-img{
-      height: 0.5cm;
-      width: 0.5cm;
+.bottom-con a{
+     text-decoration: none;
+     color: #000000;
+     
 }
-.icon{
-      border: 2px solid transparent;
-      text-decoration: none;
-}
-.icon:hover{
-      border:2px solid blue
-}
-a{
-      color: white;
-      text-decoration: none;
-}
-.search{
-      border: 3px solid black;
-      height: 0.7cm;
-      width: 5.2cm;
-      display: flex;
-      color: black;
-      background-color: yellow;
-      border-radius: 6px;
-      align-items: center;
-      justify-content: center;
-}
-.search:hover{
-      border: 4px solid blue;
-}
-.three{
-      width: 4cm ;
+.bottom-con {
+  font-size: 0.7cm;
 
-}
-/* line2  */
-.line2{
-      background-color:white;
-      display: flex;
-      justify-content: end;
-      
-}
-.alkeshimg{
-      height: 4cm;
-      width: 4cm;
-      border: 10px solid black;
-      border-radius: 20%;
-      display: flex;
-     margin-top: 120px;
-     margin-left: 600px;
-}
-.NAME{
-      background-color:none;
-      color: white;
-      display: flexbox;
-      margin-left: 580px;
-      margin-right: 700PX;
-      padding-left: 30PX;
 }
 
 
 
-.NAME{
-      background-color: black;
-      border: 2px solid blue;
-      border-radius: 10%;
-      
-}
-/* PROJECT PART */
-.project{
-      background-color: white;
-      color:black ;
-      display: flex;
-      justify-content: center;
-      
-}
 
-.CERT{
-      display: flexbox;
-      align-items: center;
-      justify-content: space-evenly;
-      background-color: white;
-      color: black;
-      text-decoration: none;
-}
-.skills{
-      background-color: white;
-      color: blue;
-      display: flex;
-      justify-content: center;
-}
-.footer{
-      background-color: black;
-      color: yellow;
-      height: 0.5cm;
-      border: 1px solid black;
-      display: flex;
-      justify-content: end;
-}
