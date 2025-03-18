@@ -1,0 +1,188 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse; /* Moves the image to the right */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-image img {
+    width: 300px; /* Increased image size */
+    height: 300px; /* Increased image size */
+    border-radius: 50%; /* Keep the circular shape */
+    object-fit: cover;
+    margin-left: 30px; /* Add space between image and text */
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left; /* Ensure the text is aligned to the left */
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #5C67F2;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4a54e1;
+}
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #5C67F2;
+}
+
+.social-icon i {
+    transition: transform 0.3s;
+}
+
+.social-icon:hover i {
+    transform: scale(1.1);
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse; /* Moves the image to the right */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-image img {
+    width:200px; /* Increased image size */
+    height: 200px; /* Increased image size */
+    border-radius: 50%; /* Keep the circular shape */
+    object-fit: cover;
+    margin-left: 100px; /* Add space between image and text */
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left; 
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #5C67F2;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4a54e1;
+}
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #5C67F2;
+}
+
+.social-icon i {
+    transition: transform 0.3s;
+}
+
+.social-icon:hover i {
+    transform: scale(1.1);
+}
