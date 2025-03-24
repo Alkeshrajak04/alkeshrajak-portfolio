@@ -17,11 +17,12 @@ body {
     background-color: #ffffff;
 }
 
+/* Container */
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row-reverse; /* Moves image to the right */
+    flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -98,19 +99,23 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .about-container {
-        flex-direction: column; /* Stack items on smaller screens */
+        flex-direction: column;
         text-align: center;
     }
 
     .about-image img {
         width: 200px;
         height: 200px;
-        margin: 0 auto;
+        margin: 20px auto;
     }
 
     .about-text {
         max-width: 90%;
         text-align: center;
+    }
+
+    .social-media {
+        justify-content: center;
     }
 }
 
