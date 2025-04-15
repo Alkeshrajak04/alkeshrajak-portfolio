@@ -17,12 +17,11 @@ body {
     background-color: #ffffff;
 }
 
-/* Container */
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+    flex-direction: row-reverse; /* Moves image to the right */
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -99,23 +98,19 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .about-container {
-        flex-direction: column;
+        flex-direction: column; /* Stack items on smaller screens */
         text-align: center;
     }
 
     .about-image img {
         width: 200px;
         height: 200px;
-        margin: 20px auto;
+        margin: 0 auto;
     }
 
     .about-text {
         max-width: 90%;
         text-align: center;
-    }
-
-    .social-media {
-        justify-content: center;
     }
 }
 
