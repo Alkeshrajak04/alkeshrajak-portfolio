@@ -207,59 +207,81 @@ body {
 }
 
 /* About Section */
-.about-section {
-  padding: 50px 0;
-  background-color: #ffffff;
-}
-
 .about-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  flex-direction: row-reverse; /* Moves the image to the right */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .about-image img {
-  width:200px; /* Increased image size */
-  height: 200px; /* Increased image size */
-  border-radius: 50%; /* Keep the circular shape */
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  margin-left: 100px; /* Add space between image and text */
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .about-text {
-  max-width: 600px;
-  text-align: left; 
+  flex: 1;
+  min-width: 280px;
 }
 
 .about-text h2 {
   font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 .about-text p {
-  font-size: 1.1rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
-  margin-bottom: 15px;
+}
+
+.social-media {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #0077b5; /* Example LinkedIn color */
 }
 
 .btn {
-  padding: 10px 20px;
-  background-color: #5C67F2;
-  color: #fff;
-  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
   border: none;
-  border-radius: 5px;
+  background-color: #555;
+  color: white;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #4a54e1;
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
 }
 
 /* Social Media Icons */
@@ -319,3 +341,17 @@ body {
   }
 
 
+  .btn-secondary {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: darkgreen;
+  }
+  
